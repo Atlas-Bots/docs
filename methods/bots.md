@@ -9,15 +9,15 @@
 ID of the bot you would like the information about.
 {% endswagger-parameter %}
 
-{% swagger-response status="200" description="Cake successfully retrieved." %}
+{% swagger-response status="200" description="Bots information send successfully." %}
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+This content of this response varies.
 ```
 {% endswagger-response %}
 
-{% swagger-response status="404" description="Could not find a cake matching this query." %}
+{% swagger-response status="404" description="Unable to find the bot on our system." %}
 ```
-{    "message": "Ain't no cake like that."}
+{    "message": "[Atlas API] Bot not found. Please provide a valid Bot ID. Should be a String or Discord Snowflake"}
 ```
 {% endswagger-response %}
 {% endswagger %}
@@ -37,15 +37,21 @@ ID of the bot you would like to post stats to.
 The bot's Authentication token 
 {% endswagger-parameter %}
 
-{% swagger-response status="200" description="Cake successfully retrieved." %}
+{% swagger-response status="200" description="Bots stats posted successfully" %}
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+{ "message": "[Atlas API] Your Stats have been posted! Now go enjoy your day Noob!"}
 ```
 {% endswagger-response %}
 
-{% swagger-response status="404" description="Could not find a cake matching this query." %}
+{% swagger-response status="400: Bad Request" description="Bad Request from server." %}
+```javascript
+This content of this response varies.
 ```
-{    "message": "Ain't no cake like that."}
+{% endswagger-response %}
+
+{% swagger-response status="404" description="Unable to find the bot on our system." %}
+```
+{    "message": "[Atlas API] Bot not found. Please provide a valid Bot ID. Should be a String or Discord Snowflake"}
 ```
 {% endswagger-response %}
 {% endswagger %}
