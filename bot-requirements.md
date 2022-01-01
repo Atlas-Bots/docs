@@ -23,4 +23,4 @@ description: These are the requirements to get approved on Atlas Bots!
 * Allow NSFW commands to be used outside NSFW channels.
 * Have a NSFW avatar.
 * Be a fork of another bot.
-* Should not respond to other bots.
+* Respond to other bots.
