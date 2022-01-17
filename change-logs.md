@@ -4,6 +4,27 @@ description: All change logs on the Bot List.
 
 # Change Logs
 
+## Change Logs For 17/01/2022
+
+### Added
+
+* Added back ID's to profiles URL with the fix on edits.
+* New section "Recently Added" has arrived!
+* Public Profiles are here!
+* We are now DMCA protected.
+
+### Fixes
+
+* Fixed vote notifications!
+* Minor Bug Fixes
+
+### Improvements / Changes
+
+* Reverted back to old fonts and card colors.
+* Updates to cards.
+* Footer changes.
+* Backend Improvements.
+
 ## Change Logs For (03/01/2022)
 
 ### Added
