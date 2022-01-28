@@ -7,3 +7,7 @@
 ## Methods
 
 * [Bots](methods/bots.md)
+
+## Libraries
+
+* [TypeScript/JavaScript](libraries/typescript-javascript.md)
