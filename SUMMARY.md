@@ -3,6 +3,7 @@
 * [Welcome](README.md)
 * [Change Logs](change-logs.md)
 * [Bot Requirements](bot-requirements.md)
+* [Certification](certification.md)
 
 ## Methods
 
