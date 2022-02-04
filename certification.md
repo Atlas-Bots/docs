@@ -23,3 +23,11 @@ description: Here is all the requirements and perks for certification.
 * Roles for you and the bot
 
 more will be coming very soon!
+
+
+
+## Apply
+
+If you meet all the requirements you can apply here!&#x20;
+
+[https://forms.gle/2jhwqkiD4o11Rubq6](https://forms.gle/2jhwqkiD4o11Rubq6)
